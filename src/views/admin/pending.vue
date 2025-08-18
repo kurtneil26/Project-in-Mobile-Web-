@@ -103,7 +103,8 @@
                                             <i class="fa-regular fa-thumbs-down"></i>
                                         </button>
                                                 </td>
-                                                <td><button type="button" class="ti-btn ti-btn-outline-info ti-btn-wave  me-[0.375rem]">View Documents</button></td>
+                                                <td><button type="button" class="ti-btn ti-btn-outline-info ti-btn-wave  me-[0.375rem]" 
+                                                    @click="$router.push('/admin/view')">View Documents</button></td>
                                             </tr>
                                            
                                         </tbody>
